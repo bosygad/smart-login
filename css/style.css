@@ -1,0 +1,41 @@
+.btn-link{
+    text-decoration: none !important;
+    /* border-color: transparent !important; */
+    border:0px solid transparent !important ;
+}
+.btn-link:hover{
+    text-decoration: underline !important;
+}
+
+body{
+    background-color: #24353f;
+}
+
+.log{
+    box-shadow:-5px 2px 54px -9px rgba(0,0,0,1)
+}
+h1{
+    color: #17a2b8;
+}
+.form-control{
+    background-color: transparent !important;
+    border: 1px solid #ced4da !important;
+    
+}
+.form-control:focus* {
+    color: white;
+    border-color: #80bdff !important;
+}
+.form-control::placeholder{
+    color: #ced4da;
+
+}
+.btn{
+    border:1px solid #17a2b8 !important ;
+    color: #17a2b8;
+
+}
+.btn:hover{
+    background-color: #17a2b8;
+    transition: all .5s;
+}

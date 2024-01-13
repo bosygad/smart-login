@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container d-flex justify-content-center">
+       <div class="log  my-5 py-5 text-center w-75">
+        <div>
+          <h1 class="text-white title">smart login system</h1>
+          <div class="output text-white"></div>
+      </div>
+      <div class="login">
+         <div class="input-login d-flex justify-content-center flex-column align-items-center">
+          <input type="email" id="loginEmail" placeholder="enter your email" class="form-control my-3 w-75">
+          <input type="password" id="loginPassword" placeholder="enter your password" class="form-control my-3 w-75">
+      </div>
+      <div class="loginMasseg"></div>
+          <button class="btn btn-outline-info my-3 w-75 loginBtn">login</button>
+          <p class="text-white">Don’t have an account? <a class='text-white signupLink ' href='#'>Sign Up</a></p>
+      </div>
+      <div class="signUp d-none">
+          <div class="input-signup d-flex justify-content-center flex-column align-items-center">
+          <input type="text" id="SignupName" placeholder="enter your name" class="form-control my-3 w-75">
+           <input type="email" id="SignupEmail" placeholder="enter your email" class="form-control my-3 w-75">
+           <input type="password" id="SignupPassword" placeholder="enter your password" class="form-control my-3 w-75">
+          
+          </div>
+          <div class="signupMasseg" ></div>
+           <button class="btn btn-outline-info my-3 w-75 signupBtn" >sign up</button>
+           <p class="text-white">Don’t have an account? <a class='text-white signinLink' type="btn" href='#'>Sign in</a></p>
+       </div>
+       </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
